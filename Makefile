@@ -646,7 +646,7 @@ export CFLAGS_GCOV
 ifeq ($(ld-name),lld)
 KBUILD_CFLAGS += -fuse-ld=lld
 endif
-KBUILD_CPPFLAGS += -Qunused-arguments
+#KBUILD_CPPFLAGS += -Qunused-arguments
 
 # The arch Makefiles can override CC_FLAGS_FTRACE. We may also append it later.
 ifdef CONFIG_FUNCTION_TRACER
